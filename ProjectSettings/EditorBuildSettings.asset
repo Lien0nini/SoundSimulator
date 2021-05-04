@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/bubble.unity
     guid: 68c57a441e5f4fb44a9e2fafce48868c
+  - enabled: 1
+    path: Assets/Scenes/coke.unity
+    guid: 467a4ce94e38bf843b9d08dc55a0ab3e
+  - enabled: 1
+    path: Assets/Scenes/noodle.unity
+    guid: d031e2841f975ee47ac2f837373b3f83
   m_configObjects: {}
