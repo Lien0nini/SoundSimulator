@@ -1,35 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class cokeAudio : MonoBehaviour
+public class cokeAudio : MonoBehaviour, IPointerDownHandler
 {
     public AudioSource src;
-    //int n = 0;
 
-    // public Button button;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //if (n >= 1){
-        //   button.interactable = false;
-        //}
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void PlayMusic()
+    public void OnPointerDown(PointerEventData eventData) 
     {
         src.Play();
-        //n = n+1;
        
-        
-
     }
 }
