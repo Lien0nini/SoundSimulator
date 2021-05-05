@@ -4,22 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class suprise : MonoBehaviour, IPointerDownHandler
+public class surprise : MonoBehaviour, IPointerDownHandler
 {
     public Text sup;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    // show the text when the user clicks the page
     public void OnPointerDown(PointerEventData eventData) 
     {
         sup.color = Color.gray;

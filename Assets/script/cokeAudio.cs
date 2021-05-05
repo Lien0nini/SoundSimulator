@@ -7,8 +7,8 @@ public class cokeAudio : MonoBehaviour, IPointerDownHandler
 {
     public AudioSource src;
 
-    public void OnPointerDown(PointerEventData eventData) 
     //play sound when the mouse hit the soda caps
+    public void OnPointerDown(PointerEventData eventData) 
     {
         src.Play();
     }

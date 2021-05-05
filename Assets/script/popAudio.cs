@@ -7,7 +7,8 @@ public class popAudio : MonoBehaviour, IPointerDownHandler
 {
     public AudioSource src;
 
-    public void OnPointerDown(PointerEventData eventData) 
+    // play sound when the bubble was hitted 
+    public void OnPointerDown(PointerEventData eventData)
     {
         src.Play();
     }

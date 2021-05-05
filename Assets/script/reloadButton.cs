@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class reloadButton : MonoBehaviour
 {
+    // refresh the page 
     public void reloadGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
