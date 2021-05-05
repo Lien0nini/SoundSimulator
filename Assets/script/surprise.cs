@@ -12,6 +12,5 @@ public class surprise : MonoBehaviour, IPointerDownHandler
     public void OnPointerDown(PointerEventData eventData) 
     {
         sup.color = Color.gray;
-        Debug.Log("work");
     }
 }

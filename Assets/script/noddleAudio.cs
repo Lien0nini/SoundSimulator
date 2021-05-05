@@ -10,6 +10,7 @@ public class noddleAudio : MonoBehaviour, IPointerDownHandler
 
     //play sound when the button was hitted and 
     //then disable the butto so that it would not play sound when hit again
+    
     public void OnPointerDown(PointerEventData eventData) 
     { 
         if (a < 1)
