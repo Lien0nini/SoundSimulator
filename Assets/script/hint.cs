@@ -4,15 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class cokeAudio : MonoBehaviour, IPointerDownHandler
+public class hint : MonoBehaviour, IPointerDownHandler
 {
-    public AudioSource src;
     public Image ht;
 
-    //play sound when the mouse hit the soda caps
+    // show the text when the user clicks the page
     public void OnPointerDown(PointerEventData eventData) 
     {
         ht.color = Color.clear;
-        src.Play();
     }
 }
