@@ -9,7 +9,7 @@ public class cokeAudio : MonoBehaviour, IPointerDownHandler
     public AudioSource src;
     public Image ht;
 
-    //play sound when the mouse hit the soda caps
+    //play sound when the mouse hit the soda caps and make the hint invisible
     public void OnPointerDown(PointerEventData eventData) 
     {
         ht.color = Color.clear;
