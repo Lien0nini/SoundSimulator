@@ -1,6 +1,8 @@
 # SoundSimulator
 COMP225:
 Authors: Rita Li, Lian Lien, Jenny Li
+Unity version: 2020.3.2
+Description: App that can simulate sounds of bubble, coke, and noddle that could make people relax
 
 The process of creating our project:
 Create a main menu and several pages in unity.
